@@ -21,28 +21,57 @@
                 </li>
                 <li>
                     <a href="#"  class="account">
-                        <div class="account-img">
-                        </div>
+                        <div class="account-img"></div>
                         my account
                     </a>
                 </li>
                 <li>
-                    <div href="#" class="search">
-                    </div>
+                    <div href="#" class="search"></div>
                 </li>
               </ul>
           </nav>
-        </section>  
+        </section>
+
         <section class="topnav-mainMenu-wrapper">
             <div class="topnav-mainMenu">
               <a href="#" class="logo"></a>
               <nav class="main-menu-wrapper">
                 <ul class="main-menu">
-            	    <li><a href="#" class="triangle">new</a></li>
-                  <li><a href="#" class="triangle">designers</a></li>
-                  <li><a href="#" class="triangle">women</a></li>
-                  <li><a href="#" class="triangle">men</a></li>
-                  <li><a href="#" class="triangle">clearence</a></li>
+            	    <li class="menu-select-item">
+                    <select class="menu-select-style">
+                      <option><a href="#">new</a></option>
+                      <option><a href="#">new1</a></option>
+                      <option><a href="#">new2</a></option>
+                    </select>
+                  </li>
+                  <li class="menu-select-item">
+                    <select class="menu-select-style">
+                      <option><a href="#">designers</a></option>
+                      <option><a href="#">designers1</a></option>
+                      <option><a href="#">designers2</a></option>
+                    </select>
+                  </li>
+                  <li class="menu-select-item">
+                    <select class="menu-select-style">
+                      <option><a href="#">women</a></option>
+                      <option><a href="#">women1</a></option>
+                      <option><a href="#">women2</a></option>
+                    </select>
+                  </li class="menu-select-item">
+                  <li class="menu-select-item">
+                    <select class="menu-select-style">
+                      <option><a href="#">men</a></option>
+                      <option><a href="#">men1</a></option>
+                      <option><a href="#">men2</a></option>
+                    </select>
+                  </li>
+                  <li class="menu-select-item">
+                    <select class="menu-select-style">
+                      <option><a href="#">clearence</a></option>
+                      <option><a href="#">clearence1</a></option>
+                      <option><a href="#">clearence2</a></option>
+                    </select>
+                  </li>
                 </ul>
                 <div class="cart-wrapper"><p class="cart-triangle hidden-visibility">Your cart</p>
                   <div class="cart-items-amount"><img src="img/cart.png" alt="cart"><p class="cart-items-amount-font">0 items  |  $ 0</p></div>
@@ -57,15 +86,44 @@
             </div>
         </section>
       </header>
-    <main>
-        <section class="slaider-wrapper hidden-visibility">
-          <div class="slaider-container">
+    
+      <main>
+        <div class="slaider-wrapper hidden-visibility">
+              <input type="radio" name="point" id="slide1" checked>
+              <input type="radio" name="point" id="slide2">
+              <input type="radio" name="point" id="slide3">
+              <input type="radio" name="point" id="slide4">
+              <input type="radio" name="point" id="slide5">
+
+          <div class="slider">
               <button class="slaider-arrow-button">&lt;</button> 
               <button class="slaider-arrow-button slaider-arrow-button-left">&gt;</button>
-              <div class="slaider-photo-container">
+            <div class="slides slide1">
+              <div class="slaider-links-container">
+                <div class="link-wrapper">
+                  <span class="link-title1">Crazy</span>
+                </div>
+                <span class="link-title2"></span>
+                <div class="border1"></div>
+                <div class="border2"></div>
+                <span class="link-title3">woman collection</span>
+                <a href="#" class="inner-slaider-button">shop now</a>
+              </div>
+            </div>
+            <div class="slides slide2">2</div>
+            <div class="slides slide3">3</div>
+            <div class="slides slide4">4</div>
+            <div class="slides slide5">5</div>
+          </div>  
+
+      <!--<div class="slaider-container">
+
+
+              <div class="slaider-photo-container slides slide1">
                 <div class="slaider-links-container">
-          	    <div class="link-wrapper">
-                  <span class="link-title1">Crazy</span></div>
+                  <div class="link-wrapper">
+                    <span class="link-title1">Crazy</span>
+                  </div>
                   <span class="link-title2"></span>
                   <div class="border1"></div>
                   <div class="border2"></div>
@@ -73,16 +131,18 @@
           	      <a href="#" class="inner-slaider-button">shop now</a>
                 </div>
               </div>
+
+        </div>-->
+
+          <div class="controls">
+            <label for="slide1" class="slaider-buttons-color"></label>
+            <label for="slide2" class="slaider-buttons-color"></label>
+            <label for="slide3" class="slaider-buttons-color"></label>
+            <label for="slide4" class="slaider-buttons-color"></label>
+            <label for="slide5" class="slaider-buttons-color"></label>
           </div>
-     
-          <div class="slaider-buttons">
-            <a href="#" class="slaider-buttons-color"></a>
-            <a href="#" class="slaider-buttons-active"></a>
-            <a href="#" class="slaider-buttons-color"></a>
-            <a href="#" class="slaider-buttons-color"></a>
-            <a href="#" class="slaider-buttons-color"></a>
-          </div>
-        </section>
+
+        </div>
  
         <section class="social-icons-line">
             <div class="form-wrapper">
@@ -95,9 +155,9 @@
             <nav>
               <div class="social-icons-wrapper-small">
               <span>Find us here</span>
-              <a href="#" class="social-icon1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#" class="social-icon2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#" class="social-icon3"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+              <a href="#" class="social-icon1" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" class="social-icon2" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" class="social-icon3" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
               </div>
             </nav>
         
