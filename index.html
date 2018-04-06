@@ -10,30 +10,33 @@
   <body>
       <header>
         <section class="top-header">
-          <a href="#" class="contacts-wrapper">custom care:888-23-4567</a>
-          <nav>
-             <ul class="top-header-menu">
-                <li class="currency-title-li">
-                    <select class="currency-title">
-                          <option>$ US</option>
-                          <option>RUB</option>
-                    </select>
-                </li>
-                <li>
-                    <a href="#"  class="account">
-                        <div class="account-img"></div>
-                        my account
-                    </a>
-                </li>
-                <li>
-                    <div href="#" class="search"></div>
-                </li>
-              </ul>
-          </nav>
+          <div class="main-width-style header-column-maker">
+            <a href="tel:888-23-4567" class="contacts-wrapper">custom care:888-23-4567</a>
+            <nav>
+               <ul class="top-header-menu">
+                  <li class="currency-title-li">
+                      <select class="currency-title">
+                            <option>$ US</option>
+                            <option>RUB</option>
+                      </select>
+                  </li>
+                  <li>
+                      <a href="#"  class="account">
+                          <div class="account-img"></div>
+                          my account
+                      </a>
+                  </li>
+                  <li>
+                      <div href="#" class="search"></div>
+                  </li>
+                </ul>
+            </nav>
+          </div>
         </section>
 
         <section class="topnav-mainMenu-wrapper">
-            <div class="topnav-mainMenu">
+          <div class="main-width-style topnav-mainMenu">
+            <!--<div class="topnav-mainMenu">-->
               <a href="#" class="logo"></a>
               <nav class="main-menu-wrapper">
                 <ul class="main-menu">
@@ -84,6 +87,7 @@
               <a href="#"><span class="menu-line2"></span></a>
               <a href="#"><span class="menu-line3"></span></a>
             </div>
+            <!--</div>-->
         </section>
       </header>
     
@@ -144,24 +148,25 @@
 
         </div>
  
-        <section class="social-icons-line">
+        <div class="social-icons-line">
+            <div class="main-width-style icons-line-wrapper-iphone640">
             <div class="form-wrapper">
-            <span class="hidden-visibility">Stay updated</span>
-                <form>
-                  <label for="email"></label><input type="email" name="email" id="email" placeholder="Your email address">
-                  <label for="submit"></label><input type="submit" name="submit" id="submit" class="add-to-cart" value="+">
-                </form>
-            </div>
-            <nav>
-              <div class="social-icons-wrapper-small">
-              <span>Find us here</span>
-              <a href="#" class="social-icon1" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#" class="social-icon2" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#" class="social-icon3" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+              <span class="hidden-visibility">Stay updated</span>
+                  <form class="email-form-style">
+                    <label for="email"></label><input type="email" name="email" id="email" placeholder="Your email address">
+                    <label for="submit"></label><input type="submit" name="submit" id="submit" class="add-to-cart" value="+">
+                  </form>
               </div>
-            </nav>
-        
-        </section>
+              <nav>
+                <div class="social-icons-wrapper-small">
+                <span>Find us here</span>
+                <a href="#" class="social-icon1" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="social-icon2" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="social-icon3" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                </div>
+              </nav>
+            </div>
+        </div>
         <section class="advertising-photos hidden-visibility">
           <a href="#" class="advertising-photo1"></a>
           <div class="photo-wrapper">
@@ -187,10 +192,11 @@
     <a href="#" class="arrow-button"></a>
     <a href="#" class="arrow-button arrow-button-active"></a>
     </div>
+    <div class="menu-item-style-iphone640 visibility-hidden-desktop">what’s hot?</div>
     </nav>
      <nav class="images-menu-color"> 
       <ul class="images-menu2">
-        <li class="product-item1 product-items hidden-visibility">
+        <li class="product-item1 product-items hidden-visibility hidden-visibility-tablet">
           <div class="product-link">
             <a href="#" class="shop-it-tip hidden-visibility">
               <span class="shop-it-position hidden-visibility">SHOP IT</span>
@@ -203,7 +209,7 @@
             </div>
           </div>
         </li>
-        <li class="product-item2 product-items hidden-visibility">
+        <li class="product-item2 product-items hidden-visibility hidden-visibility-tablet">
           <div class="product-link">
             <a href="#" class="shop-it-tip hidden-visibility">
               <span class="shop-it-position hidden-visibility">SHOP IT</span>
@@ -216,7 +222,7 @@
             </div>
           </div>
         </li>
-        <li class="product-item3 product-items hidden-visibility">
+        <li class="product-item3 product-items hidden-visibility hidden-visibility-tablet">
           <div class="product-link">
           <div class="sale-tips-background">
             <div class="sale-tip">
@@ -233,7 +239,7 @@
           </div>
           </div>
         </li>
-        <li class="product-item4 product-items hidden-visibility">
+        <li class="product-item4 product-items hidden-visibility hidden-visibility-tablet">
           <div class="product-link">
             <a href="#" class="shop-it-tip hidden-visibility">
               <span class="shop-it-position hidden-visibility">SHOP IT</span>
@@ -246,7 +252,7 @@
             </div>
           </div>
         </li>
-        <li class="product-item3 product-items hidden-visibility">
+        <li class="product-item3 product-items hidden-visibility product-item-margin">
           <div class="product-link">
           <div class="sale-tips-background"><div class="sale-tip">
             <a href="#" class="shop-it-tip">
@@ -421,7 +427,7 @@
       </nav>
     </section>
 <section class="footer-navigation-wrapper hidden-visibility">
-      <nav>
+      <nav class="main-width-style">
         <ul class="menu-wrapper">
           <li class="menu-margin-setter"><span class="menu-headings">Customer Service</span>
               <ul class="submenu"> 
@@ -460,7 +466,7 @@
                 <li><a href="#">Tokio</a></li>
             </ul>
           </li> 
-          <li class="menu-margin-setter"><span class="menu-headings">Social</span>
+          <li class="menu-margin-setter tablet-margin-setter"><span class="menu-headings">Social</span>
              <ul class="submenu social-icons-wrapper">
                 <li><a href="#" class="icon-twit"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="#" class="icon-pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li> 
@@ -477,6 +483,7 @@
   </section>
 </main>
 <footer>
+  <div class="main-width-style">
     <nav class="footer-menu"> 
       <ul>  
         <li><a href="#" class="">Privacy & Cookies</a></li>
@@ -495,6 +502,7 @@
       <p>© LookShop.com</p>
       <p> All Rights Reserved</p>
     </div>
+  </div>
   </footer>
 </body>  
 </html>
